@@ -250,9 +250,9 @@ section.contact a {
     .navigation-bar .nav-container nav{
        padding-top: 20px;
     }
-    .navigation-bar .nav-container div{
-        display: flex;
-        flex-direction: column-reverse;
+    .navigation-bar .nav-container nav div {
+        
+        
     }
     .circles{
        display: none;
