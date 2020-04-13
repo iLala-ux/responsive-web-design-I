@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5 {
 }
 .navigation-bar .nav-container{
     display: flex;
+    
     width: 80%;
     max-width: 880px;
     padding: 40px 0;
@@ -235,42 +236,8 @@ section.contact a {
     overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
-    nav{
-        
-    }
-    
-    .nav-container{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-    .navigation-bar .nav-container{
-       width: 100%;
-       padding: 0%;
-    }
-    .navigation-bar .nav-container nav{
-       padding-top: 20px;
-    }
-    .navigation-bar .nav-container nav div {
-        display: flex;
-        flex-direction: column-reverse;
-        
-    }
-    .circles{
-       display: none;
-    }
-    .iod1{
-       align-self: center;
-       align-content: center;
-       width: 100% !important;
-       max-height: 220px;
-    }
-}
 @media screen and (max-width:500px){
-    img.logo{
-        width: 0%;
-    }
+    .navigation-bar .nav-container .nav img {}
     .nav-container{
         display: flex;
         flex-direction: column-reverse;
@@ -322,4 +289,41 @@ section.contact a {
     
 }  
     
+@media screen and (max-width: 800px) {
+    nav{
+        
+    }
+    .great-idea{
+        text-align: center;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigation-bar .nav-container{
+       width: 100%;
+       padding: 0%;
+       text-align: center;
+    }
+    .navigation-bar .nav-container nav{
+       padding-top: 20px;
+    }
+    .navigation-bar .nav-container nav div {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .circles{
+       display: none;
+    }
+    .iod1{
+       align-self: center;
+       align-content: center;
+       width: 100% !important;
+       max-height: 220px;
+    }
+}
+
 
