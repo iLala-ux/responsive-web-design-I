@@ -236,9 +236,10 @@ section.contact a {
 }
 
 @media screen and (max-width: 800px) {
-    header{
-        padding: 79px;
+    nav{
+        
     }
+    
     .nav-container{
         display: flex;
         flex-direction: column-reverse;
@@ -246,12 +247,14 @@ section.contact a {
     }
     .navigation-bar .nav-container{
        width: 100%;
+       padding: 0%;
     }
     .navigation-bar .nav-container nav{
        padding-top: 20px;
     }
     .navigation-bar .nav-container nav div {
-        
+        display: flex;
+        flex-direction: column-reverse;
         
     }
     .circles{
@@ -265,6 +268,9 @@ section.contact a {
     }
 }
 @media screen and (max-width:500px){
+    img.logo{
+        width: 0%;
+    }
     .nav-container{
         display: flex;
         flex-direction: column-reverse;
