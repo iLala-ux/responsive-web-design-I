@@ -295,6 +295,7 @@ section.contact a {
     }
     .great-idea{
         text-align: center;
+        width: 100%;
     }
     .nav-container{
         display: flex;
@@ -305,7 +306,7 @@ section.contact a {
     .navigation-bar .nav-container{
        width: 100%;
        padding: 0%;
-       text-align: center;
+       align-items: center;
     }
     .navigation-bar .nav-container nav{
        padding-top: 20px;
